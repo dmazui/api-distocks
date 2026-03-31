@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class StatusController {
 
     @GetMapping
-    public String hello() {
+    public String status() {
         return "api-DiStocks is online!";
     }
 }

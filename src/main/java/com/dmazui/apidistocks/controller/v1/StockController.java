@@ -1,4 +1,4 @@
-package com.dmazui.apidistocks.controller;
+package com.dmazui.apidistocks.controller.v1;
 
 import com.dmazui.apidistocks.dto.StockDTO;
 import com.dmazui.apidistocks.entity.Stock;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/stocks")
+@RequestMapping("/stocks/v1")
 public class StockController {
 
     private final StockService service;

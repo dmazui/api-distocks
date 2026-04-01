@@ -19,4 +19,7 @@ spring:
       path: /h2-console
 
 server:
-  port: 7707
+  port: ${PORT:7707}
+
+brapi:
+  token: kptcrJeKVe6hTjsytZ5TPw
